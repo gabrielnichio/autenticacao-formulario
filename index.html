@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autenticação Formulário</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>Autenticação de Formulário</h1>
+    </header>
+    <main>
+        <div>
+            <h2>Login</h2>
+            <form class="formulario" id="formulario" action="auth.html" >
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input type="text" id="email" name="email" placeholder="Digite seu email">
+                    <span class="error-message"></span>
+                </div>
+
+                <div>
+                    <label for="senha">Senha:</label>
+                    <input type="password" id="senha" name="senha" placeholder="Digite sua senha" autocomplete="on">
+                    <span class="error-message"></span>
+                </div>
+
+                <div>
+                    <button type="submit">Login</button>
+                </div>
+            </form>
+        </div>
+
+    </main>
+    <footer>
+
+    </footer>
+    <script src="/js/login.js"></script>
+</body>
+
+</html>
